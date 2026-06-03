@@ -12,6 +12,7 @@ import ContactDetail from "./components/Contact/ContactDetail";
 import ContactEdit from "./components/Contact/ContactEdit";
 import AddressCreate from "./components/Address/AddressCreate";
 import AddressEdit from "./components/Address/AddressEdit";
+import NotFound from "./components/NotFound";
 import "./style.css";
 
 createRoot(document.getElementById("root")).render(
@@ -39,6 +40,7 @@ createRoot(document.getElementById("root")).render(
           </Route>
         </Route>
       </Route>
+      <Route path="*" element={<NotFound />} />
     </Routes>
   </BrowserRouter>
 );

@@ -1,0 +1,7 @@
+2026-06-03
+
+### Halaman 404 Not Found
+- Created `src/components/NotFound.jsx` - Komponen halaman 404 dengan icon, pesan, dan tombol back to home
+- Modified `src/main.jsx` - Tambah import NotFound dan route path="*"
+- Modified `src/components/NotFound.jsx` - Back to Home pindah ke /login jika belum login
+- Modified `src/components/NotFound.jsx` - Text link jadi dinamis (Back to Home / Back to Login)
